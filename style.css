@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.status {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.counter {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 12px;
+}
