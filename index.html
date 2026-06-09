@@ -1,54 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Mase - Personal Site (WIP)</title>
+<meta charset="UTF-8">
+<title>/home/mase</title>
+<link rel="icon" href="icon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
 
-  <link rel="icon" type="image/x-icon" href="icon.ico">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="wrapper">
+<div id="scanlines"></div>
 
-    <h1>Mase</h1>
+<div id="topbar">
+    [  mason@homeserver  ]
+</div>
 
-    <p class="status">Personal website in development</p>
+<div id="container">
 
-    <hr>
+    <!-- HEADER -->
+    <div class="panel">
+        <div class="panel-content">
 
-    <p>
-      This site is currently being built.  
-      Check back later.
-    </p>
+            <h1>/home/mase</h1>
 
-    <hr>
+            <p class="command">
+                root@homeserver:/home/mase#
+            </p>
 
-    <h2>Progress</h2>
+            <p>
+                developer • linux user • homelab builder • tech nerd
+            </p>
 
-    <ul>
-      <li>Domain setup ✔</li>
-      <li>Basic layout ✔</li>
-      <li>Designing site ⏳</li>
-      <li>Projects page ⏳</li>
-      <li>Socials page ⏳</li>
-      <li>Guestbook ⏳</li>
-    </ul>
+            <p>
+                building servers, tools, and random automation at 2am
+            </p>
 
-    <hr>
+        </div>
+    </div>
 
-    <p class="counter">Visitors: 000001</p>
+    <!-- STATUS -->
+    <div class="panel">
 
-    <hr>
+        <div class="panel-title">
+            SYSTEM STATUS
+        </div>
 
-    <p class="footer">
-      © 2026 Mase
-    </p>
+        <div class="panel-content">
 
-  </div>
+            <p>
+                status:
+                <span class="pink">ONLINE</span>
+            </p>
+
+            <p>
+                visitors:
+                <span id="visitor-count">loading...</span>
+            </p>
+
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="panel">
+
+        <div class="panel-title">
+            PROJECTS
+        </div>
+
+        <div class="panel-content">
+
+            <p>> proxmox homelab</p>
+            <p>> linux servers</p>
+            <p>> docker stacks</p>
+            <p>> python automation</p>
+            <p>> reverse proxy lab</p>
+
+        </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="panel">
+
+        <div class="panel-title">
+            LINKS
+        </div>
+
+        <div class="panel-content">
+
+            <p><a href="#">github</a></p>
+            <p><a href="#">projects</a></p>
+            <p><a href="#">contact</a></p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        /home/mase © 2026
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
